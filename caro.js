@@ -15,7 +15,7 @@ function tao()
     {
         var rd_tao;
         rd_tao = Math.random().toString();
-        d_tao = rd_tao[rd_tao.length - 1];
+        rd_tao = rd_tao[rd_tao.length - 1];
         rd_tao = Number(rd_tao);
         return rd_tao;
     }
