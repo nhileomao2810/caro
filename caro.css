@@ -1,0 +1,58 @@
+:root {
+    --width-main: 300px;
+    --heigth-main: 300px;
+}
+
+* {
+    margin: 0 0;
+}
+
+#main {
+    width: var(--width-main);
+    height: var(--heigth-main);
+    margin-top: 100px;
+    margin-left: calc(50% - var(--width-main) / 2);
+}
+
+
+.box {
+    width: calc(var(--width-main) / 3);
+    height: calc(var(--width-main) / 3);
+    background-color: rgb(172, 248, 168);
+    float: left;
+    font-weight:bold;
+    border-width: 1px;
+    border-color: aqua;
+    font-size:26px;
+}
+
+.box:hover {
+    background-color: rgb(208, 251, 88);
+}
+
+.clear {
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 50%;
+    border-color: black;
+    margin-left: calc(50% - 20px);
+    background-color: rgb(191, 238, 167);
+}
+
+.a{
+    border-top-left-radius: 20px;
+}
+
+.c{
+    border-top-right-radius: 20px;
+}
+
+.g{
+    border-bottom-left-radius: 20px;
+}
+
+.k{
+    border-bottom-right-radius: 20px;
+}
